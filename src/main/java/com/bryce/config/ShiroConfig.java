@@ -37,7 +37,8 @@ public class ShiroConfig {
         //设置/user/list需要登录用户拥有角色user时才能访问
         filterMap.put("/user/list", "roles[user]");
         //其他路径则需要登录才能访问
-        filterMap.put("/**", "authc");
+        //filterMap.put("/**", "authc");
+        filterMap.put("/**", "anon");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
         return shiroFilterFactoryBean;
     }

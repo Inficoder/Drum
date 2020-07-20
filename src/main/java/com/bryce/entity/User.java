@@ -3,6 +3,7 @@ package com.bryce.entity;
 import com.bryce.constant.Gender;
 import lombok.Data;
 import lombok.experimental.Accessors;
+import org.hibernate.validator.constraints.Length;
 
 /**
  * @ClassName User
@@ -14,9 +15,10 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class User extends BaseEntity{
     private String username;
+    @Length(min = 6, max = 12)
     private String password;
     private Gender gender;
-
+    
     @Override
     public String toString() {
         return "User{" +
@@ -24,10 +26,10 @@ public class User extends BaseEntity{
                 ", password='" + password + '\'' +
                 ", gender='" + gender + '\'' +
                 ", id='" + getId() + '\'' +
-                ", updateTime='" + getUpdateTime() + '\'' +
-                ", createTime='" + getCreateTime() + '\'' +
-                ", ver='" + getVersion() + '\'' +
-                ", deleted='" + getDeleted() + '\'' +
+//                ", updateTime='" + getUpdateTime() + '\'' +
+//                ", createTime='" + getCreateTime() + '\'' +
+//                ", ver='" + getVersion() + '\'' +
+//                ", deleted='" + getDeleted() + '\'' +
                 '}';
     }
 }
