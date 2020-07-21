@@ -2,6 +2,7 @@ package com.bryce.config;
 
 import com.bryce.shiro.MyRealm;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 
@@ -34,11 +35,12 @@ public class ShiroConfig {
         //设置/user/login不需要登录就能访问,anon:无需认证即可访问 authc:需要认证才可访问
         filterMap.put("/user/login", "anon");
         filterMap.put("/", "anon");
+        filterMap.put("/pass", "anon");
         //设置/user/list需要登录用户拥有角色user时才能访问
         filterMap.put("/user/list", "roles[user]");
         //其他路径则需要登录才能访问
-        //filterMap.put("/**", "authc");
-        filterMap.put("/**", "anon");
+        filterMap.put("/**", "authc");
+        //filterMap.put("/**", "anon");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
         return shiroFilterFactoryBean;
     }
@@ -61,4 +63,11 @@ public class ShiroConfig {
         myRealm.setCredentialsMatcher(hashedCredentialsMatcher);
         return myRealm;
     }
+
+//    @Bean
+//    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(DefaultWebSecurityManager securityManager) {
+//        AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
+//        authorizationAttributeSourceAdvisor.setSecurityManager(securityManager);
+//        return authorizationAttributeSourceAdvisor;
+//    }
 }

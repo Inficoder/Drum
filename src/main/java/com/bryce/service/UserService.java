@@ -18,4 +18,5 @@ public interface UserService extends IService<User> {
     public List<Role> listRolesById(Long id);
     //根据用户的id查询所有权限信息
     public List<Permission> listPermissionsById(Long id);
+    public User getUserByUsername(String username);
 }

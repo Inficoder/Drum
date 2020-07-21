@@ -30,6 +30,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     PermissionMapper permissionMapper;
     @Resource
     RolesPermissionsMapper rolesPermissionsMapper;
+    @Resource
+    UserMapper userMapper;
     
     /**
      * @Description //根据用户id查询所有的角色信息
@@ -79,4 +81,12 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         List<Permission> rolesPermissions = permissionMapper.selectBatchIds(permissionSet);
         return rolesPermissions;
     }
+
+    @Override
+    public User getUserByUsername(String username) {
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("username", username);
+        return userMapper.selectOne(queryWrapper);
+    }
+
 }

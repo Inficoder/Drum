@@ -1,12 +1,22 @@
 package com.bryce.shiro;
 
 
+import com.bryce.entity.Permission;
+import com.bryce.entity.Role;
+import com.bryce.entity.User;
+import com.bryce.mapper.UserMapper;
+import com.bryce.service.UserService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.context.annotation.Bean;
 import org.springframework.util.DigestUtils;
+
+import javax.annotation.Resource;
+import java.security.Permissions;
+import java.util.List;
 
 /**
  * @ClassName Realm
@@ -15,6 +25,9 @@ import org.springframework.util.DigestUtils;
  * @Date 2020-07-20 10:03
  */
 public class MyRealm extends AuthorizingRealm {
+
+    @Resource
+    UserService userService;
 
     @Bean(name = "userRealm")
     public MyRealm userRealm(){
@@ -25,6 +38,21 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("=>授权doGetAuthorizationInfo");
+//        String username = (String) principalCollection.getPrimaryPrincipal();
+//        Long id = userService.getUserByUsername(username).getId();
+//        List<Role> roles = userService.listRolesById(id);
+//        List<Permission> permissions = userService.listPermissionsById(id);
+//        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
+//
+//        for (Role r : roles) {
+//            //添加角色
+//            simpleAuthorizationInfo.addRole(r.getRole());
+//        }
+//        //添加权限
+//        for (Permission p : permissions) {
+//            simpleAuthorizationInfo.addStringPermission(p.getPermission());
+//        }
+//        return simpleAuthorizationInfo;
         return null;
     }
 
@@ -38,13 +66,20 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         System.out.println("=>认证doAuthenticationToken");
-        String username = (String) authenticationToken.getPrincipal();
-        //用户名密码为admin 123 才能登录
-        if(!"admin".equals(username)){
-            throw new UnknownAccountException("账户不存在");
+        //加这一步的目的是在Post请求的时候会先进认证，然后在到请求
+        if (authenticationToken.getPrincipal() == null) {
+            return null;
         }
-        String saltPassword = DigestUtils.md5DigestAsHex("123".getBytes());
-        System.out.println(saltPassword);
-        return new SimpleAuthenticationInfo(username, saltPassword, getName());
+        //获取用户信息
+        String name = authenticationToken.getPrincipal().toString();
+        User user = userService.getUserByUsername(name);
+        if (user == null) {
+            //这里返回后会报出对应异常
+            return null;
+        } else {
+            //这里验证authenticationToken和simpleAuthenticationInfo的信息
+            SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(name, user.getPassword(), getName());
+            return simpleAuthenticationInfo;
+        }
     }
 }

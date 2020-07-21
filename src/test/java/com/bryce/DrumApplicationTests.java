@@ -10,8 +10,14 @@ import com.bryce.mapper.RoleMapper;
 import com.bryce.mapper.UserMapper;
 import com.bryce.mapper.UsersRolesMapper;
 import com.bryce.service.UserService;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authz.AuthorizationException;
+import org.apache.shiro.subject.Subject;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.util.DigestUtils;
 
 import javax.annotation.Resource;
 import java.time.LocalDateTime;
@@ -64,12 +70,10 @@ class DrumApplicationTests {
 
     @Test
     public void test6(){
-        Long id = 7L;
-        List<Role> roles = userService.listRolesById(id);
-        roles.forEach(System.out::println);
+        String aaa = DigestUtils.md5DigestAsHex("aaa".getBytes());
+        System.out.println(aaa);
 
-//        List<Permission> permissions = userService.listPermissionsById(id);
-//        permissions.forEach(System.out::println);
+
     }
 
 }
