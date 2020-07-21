@@ -1,26 +1,37 @@
 package com.bryce;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.bryce.constant.Gender;
+import com.bryce.entity.Permission;
+import com.bryce.entity.Role;
 import com.bryce.entity.User;
+import com.bryce.entity.UsersRoles;
+import com.bryce.mapper.RoleMapper;
 import com.bryce.mapper.UserMapper;
+import com.bryce.mapper.UsersRolesMapper;
 import com.bryce.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @SpringBootTest
 class DrumApplicationTests {
-
+    @Resource
+    RoleMapper roleMapper;
     @Resource
     UserMapper userMapper;
 
     @Resource
     UserService userService;
+
+    @Resource
+    UsersRolesMapper usersRolesMapper;
 
     @Test
     void test1() {
@@ -53,10 +64,12 @@ class DrumApplicationTests {
 
     @Test
     public void test6(){
-        User user = userMapper.selectById(5L);
-        user.setUsername("fff");
-        userMapper.updateById(user);
+        Long id = 7L;
+        List<Role> roles = userService.listRolesById(id);
+        roles.forEach(System.out::println);
 
+//        List<Permission> permissions = userService.listPermissionsById(id);
+//        permissions.forEach(System.out::println);
     }
 
 }

@@ -18,7 +18,7 @@ public class User extends BaseEntity{
     @Length(min = 6, max = 12)
     private String password;
     private Gender gender;
-    
+
     @Override
     public String toString() {
         return "User{" +
