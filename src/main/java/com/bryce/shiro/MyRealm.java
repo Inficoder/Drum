@@ -34,30 +34,36 @@ public class MyRealm extends AuthorizingRealm {
         return new MyRealm();
     }
 
-    //授权
+    /**
+     * @Description //TODO 授权
+     * @Author Bryce
+     * @Date 10:13 2020/7/22
+     * @Param [principalCollection]
+     * @return org.apache.shiro.authz.AuthorizationInfo
+     **/
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("=>授权doGetAuthorizationInfo");
-//        String username = (String) principalCollection.getPrimaryPrincipal();
-//        Long id = userService.getUserByUsername(username).getId();
-//        List<Role> roles = userService.listRolesById(id);
-//        List<Permission> permissions = userService.listPermissionsById(id);
-//        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
-//
-//        for (Role r : roles) {
-//            //添加角色
-//            simpleAuthorizationInfo.addRole(r.getRole());
-//        }
-//        //添加权限
-//        for (Permission p : permissions) {
-//            simpleAuthorizationInfo.addStringPermission(p.getPermission());
-//        }
-//        return simpleAuthorizationInfo;
-        return null;
+        String username = (String) principalCollection.getPrimaryPrincipal();
+        Long id = userService.getUserByUsername(username).getId();
+        List<Role> roles = userService.listRolesById(id);
+        List<Permission> permissions = userService.listPermissionsById(id);
+        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
+        //添加角色
+        for (Role r : roles) {
+            simpleAuthorizationInfo.addRole(r.getRole());
+        }
+        //添加权限
+        for (Permission p : permissions) {
+            simpleAuthorizationInfo.addStringPermission(p.getPermission());
+        }
+        System.out.println(simpleAuthorizationInfo.getStringPermissions());
+        System.out.println(simpleAuthorizationInfo.getRoles());
+        return simpleAuthorizationInfo;
     }
 
     /***
-     * @Description //认证
+     * @Description //TODO 认证
      * @Author Bryce
      * @Date 10:11 2020/7/20
      * @Param [authenticationToken]

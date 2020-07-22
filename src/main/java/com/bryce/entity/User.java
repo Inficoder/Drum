@@ -14,8 +14,9 @@ import org.hibernate.validator.constraints.Length;
 @Data
 @Accessors(chain = true)
 public class User extends BaseEntity{
+    @Length(min = 2, max = 12)
     private String username;
-    @Length(min = 6, max = 12)
+    @Length(min = 2, max = 12)
     private String password;
     private Gender gender;
 

@@ -1,6 +1,8 @@
 package com.bryce.controller;
 
+import com.bryce.common.CommonResult;
 import com.bryce.entity.User;
+import com.bryce.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -9,6 +11,7 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import javax.validation.Valid;
 
 /**
@@ -20,28 +23,12 @@ import javax.validation.Valid;
 @RestController
 public class IndexController {
 
+    @Resource
+    UserService userService;
+
     @RequestMapping("/")
     public String index(){
         return "hello,drum!!";
-    }
-    @RequestMapping("/pass")
-    public String indexPass(){
-        Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken("cccc", "aaa");
-        try {
-            //进行验证，这里可以捕获异常，然后返回对应信息
-            subject.login(usernamePasswordToken);
-            //subject.isPermitted();
-//            subject.checkRole("admin");
-//            subject.checkPermissions("query", "add");
-        } catch (AuthenticationException e) {
-            e.printStackTrace();
-            return "账号或密码错误！";
-        } catch (AuthorizationException e) {
-            e.printStackTrace();
-            return "没有权限";
-        }
-        return "login success";
     }
 
     @RequestMapping("/test")
