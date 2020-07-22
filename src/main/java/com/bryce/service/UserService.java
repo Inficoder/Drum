@@ -34,4 +34,8 @@ public interface UserService extends IService<User> {
      * 登录
      */
     CommonResult login(String username, String password);
+    /**
+     * 登出
+     */
+    CommonResult logout();
 }

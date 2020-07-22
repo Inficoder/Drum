@@ -6,6 +6,7 @@ import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSource
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 
+import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -33,9 +34,8 @@ public class ShiroConfig {
         //指定路径和过滤器的对应关系
         Map<String, String> filterMap = new HashMap<>();
         //设置/user/login不需要登录就能访问,anon:无需认证即可访问 authc:需要认证才可访问
-        filterMap.put("/user/login", "anon");
         filterMap.put("/", "anon");
-        filterMap.put("/pass", "anon");
+        filterMap.put("/user/login", "anon");
         //设置/user/list需要登录用户拥有角色user时才能访问
         filterMap.put("/user/list", "roles[user]");
         //其他路径则需要登录才能访问
@@ -64,10 +64,20 @@ public class ShiroConfig {
         return myRealm;
     }
 
-//    @Bean
-//    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(DefaultWebSecurityManager securityManager) {
-//        AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
-//        authorizationAttributeSourceAdvisor.setSecurityManager(securityManager);
-//        return authorizationAttributeSourceAdvisor;
-//    }
+    /**
+     *  开启权限注解1
+     */
+    @Bean
+    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(DefaultWebSecurityManager securityManager) {
+        AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
+        authorizationAttributeSourceAdvisor.setSecurityManager(securityManager);
+        return authorizationAttributeSourceAdvisor;
+    }
+    /**
+     * 开启权限注解2
+     */
+    @Bean
+    public static DefaultAdvisorAutoProxyCreator getDefaultAdvisorAutoProxyCreator(){
+        return new DefaultAdvisorAutoProxyCreator();
+    }
 }

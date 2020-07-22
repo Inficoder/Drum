@@ -37,7 +37,7 @@ public class UserController {
 
     @RequestMapping("/logout")
     public CommonResult logout(){
-        return CommonResult.success("logout");
+        return userService.logout();
     }
 
     @RequestMapping("/loginPage")

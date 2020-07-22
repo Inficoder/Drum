@@ -109,4 +109,14 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         subject.login(usernamePasswordToken);
         return CommonResult.success("登陆成功");
     }
+
+    @Override
+    public CommonResult logout() {
+        Subject subject = SecurityUtils.getSubject();
+        if(subject.isAuthenticated()){
+            subject.logout();
+            return CommonResult.success("登出");
+        }
+        return CommonResult.failed("未登录");
+    }
 }
