@@ -12,7 +12,6 @@ import org.springframework.stereotype.Repository;
  * @author bryce
  * @since 2020-07-21
  */
-@Repository
 public interface UsersRolesMapper extends BaseMapper<UsersRoles> {
 
 }

@@ -4,11 +4,6 @@ import com.bryce.common.CommonResult;
 import com.bryce.entity.User;
 import com.bryce.service.UserService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.subject.Subject;
-import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,7 +25,7 @@ public class UserController {
     UserService userService;
 
     @RequestMapping("/login")
-    public CommonResult indexPass(@Valid @RequestBody User user){
+    public CommonResult login(@Valid @RequestBody User user){
         System.out.println(user);
         return userService.login(user.getUsername(), user.getPassword());
     }

@@ -4,18 +4,18 @@ package com.bryce.shiro;
 import com.bryce.entity.Permission;
 import com.bryce.entity.Role;
 import com.bryce.entity.User;
-import com.bryce.mapper.UserMapper;
 import com.bryce.service.UserService;
-import org.apache.shiro.authc.*;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.AuthenticationInfo;
+import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.context.annotation.Bean;
-import org.springframework.util.DigestUtils;
 
 import javax.annotation.Resource;
-import java.security.Permissions;
 import java.util.List;
 
 /**

@@ -5,7 +5,6 @@ import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
-
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -39,8 +38,8 @@ public class ShiroConfig {
         //设置/user/list需要登录用户拥有角色user时才能访问
         filterMap.put("/user/list", "roles[user]");
         //其他路径则需要登录才能访问
-        filterMap.put("/**", "authc");
-        //filterMap.put("/**", "anon");
+        //filterMap.put("/**", "authc");
+        filterMap.put("/**", "anon");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
         return shiroFilterFactoryBean;
     }

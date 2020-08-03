@@ -1,8 +1,6 @@
 package com.bryce.entity;
 
-import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
 /**
@@ -14,7 +12,6 @@ import lombok.experimental.Accessors;
  * @since 2020-07-21
  */
 @Data
-@EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
 public class Role extends BaseEntity {
 

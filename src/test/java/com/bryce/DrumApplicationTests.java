@@ -70,10 +70,10 @@ class DrumApplicationTests {
 
     @Test
     public void test6(){
-        String aaa = DigestUtils.md5DigestAsHex("aaa".getBytes());
-        System.out.println(aaa);
-
-
+        QueryWrapper<User> normal = new QueryWrapper<>();
+        normal.groupBy("salt");
+        List<Object> objects = userMapper.selectObjs(normal);
+        objects.forEach(System.out::println);
     }
 
 }

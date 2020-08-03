@@ -27,10 +27,6 @@ public class User extends BaseEntity{
                 ", password='" + password + '\'' +
                 ", gender='" + gender + '\'' +
                 ", id='" + getId() + '\'' +
-//                ", updateTime='" + getUpdateTime() + '\'' +
-//                ", createTime='" + getCreateTime() + '\'' +
-//                ", ver='" + getVersion() + '\'' +
-//                ", deleted='" + getDeleted() + '\'' +
                 '}';
     }
 }
