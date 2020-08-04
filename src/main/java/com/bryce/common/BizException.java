@@ -3,12 +3,14 @@ package com.bryce.common;
 public class BizException extends RuntimeException {
     protected String errorCode;
     protected String errorMsg;
-    public BizException(){
+
+    public BizException() {
         super();
     }
 
     /**
      * 基类异常的构造器
+     *
      * @param iErrorCode
      */
 
@@ -20,11 +22,11 @@ public class BizException extends RuntimeException {
 
 
     /**
-     * @Description //TODO 
+     * @return
+     * @Description //TODO
      * @Author Bryce
      * @Date 9:34 2020/7/16
      * @Param [iErrorCode, cause]
-     * @return 
      **/
     public BizException(ErrorCode errorCode, Throwable cause) {
         super(errorCode.getResultCode(), cause);
@@ -34,6 +36,7 @@ public class BizException extends RuntimeException {
 
     /**
      * msg
+     *
      * @param errorMsg
      */
     public BizException(String errorMsg) {
@@ -43,6 +46,7 @@ public class BizException extends RuntimeException {
 
     /**
      * code msg
+     *
      * @param errorCode
      * @param errorMsg
      */
@@ -53,7 +57,6 @@ public class BizException extends RuntimeException {
     }
 
     /**
-     *
      * @param errorCode
      * @param errorMsg
      * @param cause

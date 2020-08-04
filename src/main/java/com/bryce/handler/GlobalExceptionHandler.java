@@ -24,6 +24,7 @@ public class GlobalExceptionHandler {
         log.error("发生业务异常！原因是：{}", e.getErrorMsg());
         return CommonResult.failed(ResultCode.INTERNAL_SERVER_ERROR);
     }
+
     /**
      * shiro登录
      */
@@ -34,6 +35,7 @@ public class GlobalExceptionHandler {
         //return CommonResult.failed(ResultCode.INTERNAL_SERVER_ERROR);
         return CommonResult.failed("账号或密码错误");
     }
+
     /**
      * shiro鉴权
      */
@@ -44,12 +46,13 @@ public class GlobalExceptionHandler {
         //return CommonResult.failed(ResultCode.INTERNAL_SERVER_ERROR);
         return CommonResult.failed("没有权限");
     }
+
     /**
      * 空指针异常
      */
     @ExceptionHandler(value = NullPointerException.class)
     @ResponseBody
-    public CommonResult nullPointExceptionHandler(HttpServletRequest req, NullPointerException e){
+    public CommonResult nullPointExceptionHandler(HttpServletRequest req, NullPointerException e) {
         log.error("发生空指针异常！原因是：{}", e.getMessage());
         return CommonResult.failed(ResultCode.BODY_NOT_MATCH);
     }
@@ -59,7 +62,7 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(value = Exception.class)
     @ResponseBody
-    public CommonResult otherExceptionHandler(HttpServletRequest req, Exception e){
+    public CommonResult otherExceptionHandler(HttpServletRequest req, Exception e) {
         log.error("未知异常！原因是：{}", e.getMessage());
         return CommonResult.failed(ResultCode.INTERNAL_SERVER_ERROR);
     }

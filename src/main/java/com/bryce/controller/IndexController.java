@@ -20,13 +20,13 @@ import javax.validation.Valid;
 public class IndexController {
 
     @RequestMapping("/")
-    public String index(){
+    public String index() {
         return "hello,drum!!";
     }
 
     @RequiresRoles("admin")
     @RequestMapping("/test")
-    public String test(@Valid @RequestBody User user ,HttpServletRequest request){
+    public String test(@Valid @RequestBody User user, HttpServletRequest request) {
         HttpSession session = request.getSession();
         int maxInactiveInterval = session.getMaxInactiveInterval();
         System.out.println(maxInactiveInterval);

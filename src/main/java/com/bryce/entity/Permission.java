@@ -36,5 +36,4 @@ public class Permission extends BaseEntity {
     private String available;
 
 
-
 }

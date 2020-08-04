@@ -80,12 +80,13 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         List<Permission> rolesPermissions = permissionMapper.selectBatchIds(permissionSet);
         return rolesPermissions;
     }
+
     /**
+     * @return com.bryce.entity.User
      * @Description //TODO 根据username查找user
      * @Author Bryce
      * @Date 10:12 2020/7/22
      * @Param [username]
-     * @return com.bryce.entity.User
      **/
     @Override
     public User getUserByUsername(String username) {
@@ -93,12 +94,13 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         queryWrapper.eq("username", username);
         return userMapper.selectOne(queryWrapper);
     }
+
     /**
+     * @return com.bryce.common.CommonResult
      * @Description //TODO 登录
      * @Author Bryce
      * @Date 10:13 2020/7/22
      * @Param [username, password]
-     * @return com.bryce.common.CommonResult
      **/
     @Override
     public CommonResult login(String username, String password) {
@@ -111,7 +113,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     @Override
     public CommonResult logout() {
         Subject subject = SecurityUtils.getSubject();
-        if(subject.isAuthenticated()){
+        if (subject.isAuthenticated()) {
             subject.logout();
             return CommonResult.success("登出");
         }

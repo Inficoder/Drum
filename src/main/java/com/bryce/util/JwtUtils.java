@@ -19,7 +19,8 @@ public class JwtUtils {
 
     private Long ttl;
     private String key;
-    public String createJwt(String id, String subject, String roles){
+
+    public String createJwt(String id, String subject, String roles) {
         //时间戳
         long nowMills = System.currentTimeMillis();
         Date now = new Date(nowMills);
@@ -30,13 +31,13 @@ public class JwtUtils {
                 .claim("roles", roles)
                 //设置加密方式，和盐 。盐自己规定
                 .signWith(SignatureAlgorithm.HS256, key);
-        if(ttl > 0){
+        if (ttl > 0) {
             jwtBuilder.setExpiration(new Date(nowMills + ttl));
         }
         return jwtBuilder.compact();
     }
 
-    public Claims parseJWT(String token){
+    public Claims parseJWT(String token) {
         return Jwts.parser()
                 .setSigningKey(key)
                 .parseClaimsJws(token)

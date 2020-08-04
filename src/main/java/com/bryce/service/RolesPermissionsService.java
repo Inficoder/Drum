@@ -5,7 +5,7 @@ import com.bryce.entity.RolesPermissions;
 
 /**
  * <p>
- *  服务类
+ * 服务类
  * </p>
  *
  * @author bryce

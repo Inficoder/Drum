@@ -30,16 +30,16 @@ public class MyRealm extends AuthorizingRealm {
     UserService userService;
 
     @Bean(name = "userRealm")
-    public MyRealm userRealm(){
+    public MyRealm userRealm() {
         return new MyRealm();
     }
 
     /**
+     * @return org.apache.shiro.authz.AuthorizationInfo
      * @Description //TODO 授权
      * @Author Bryce
      * @Date 10:13 2020/7/22
      * @Param [principalCollection]
-     * @return org.apache.shiro.authz.AuthorizationInfo
      **/
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {

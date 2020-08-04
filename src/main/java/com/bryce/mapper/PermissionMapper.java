@@ -5,7 +5,7 @@ import com.bryce.entity.Permission;
 
 /**
  * <p>
- *  Mapper 接口
+ * Mapper 接口
  * </p>
  *
  * @author bryce

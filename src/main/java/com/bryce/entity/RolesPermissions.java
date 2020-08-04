@@ -22,6 +22,4 @@ public class RolesPermissions extends BaseEntity {
     private Long permissionId;
 
 
-
-
 }

@@ -5,7 +5,7 @@ import com.bryce.entity.Role;
 
 /**
  * <p>
- *  Mapper 接口
+ * Mapper 接口
  * </p>
  *
  * @author bryce

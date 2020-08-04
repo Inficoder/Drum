@@ -20,11 +20,13 @@ public interface UserService extends IService<User> {
      */
 
     List<Role> listRolesById(Long id);
+
     /**
      * 据用户的id查询所有权限信息
      */
 
     List<Permission> listPermissionsById(Long id);
+
     /**
      * 根据用户username查找id
      */
@@ -34,6 +36,7 @@ public interface UserService extends IService<User> {
      * 登录
      */
     CommonResult login(String username, String password);
+
     /**
      * 登出
      */

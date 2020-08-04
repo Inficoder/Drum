@@ -25,23 +25,23 @@ public class UserController {
     UserService userService;
 
     @RequestMapping("/login")
-    public CommonResult login(@Valid @RequestBody User user){
-        System.out.println(user);
+    public CommonResult login(@Valid @RequestBody User user) {
+        log.info(user.toString());
         return userService.login(user.getUsername(), user.getPassword());
     }
 
     @RequestMapping("/logout")
-    public CommonResult logout(){
+    public CommonResult logout() {
         return userService.logout();
     }
 
     @RequestMapping("/loginPage")
-    public CommonResult loginPage(){
+    public CommonResult loginPage() {
         return CommonResult.failed("please login");
     }
 
     @RequestMapping("/unauthorizedPage")
-    public CommonResult unauthorizedPage(){
+    public CommonResult unauthorizedPage() {
         return CommonResult.failed("unauthorizedPage");
     }
 }
