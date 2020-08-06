@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/service_code_rep/drum
+cd /home/ubuntu/code_repository/drum
 echo "####################################"
 echo "开始拉取最新代码"
 git pull
@@ -12,8 +12,8 @@ echo "编译打包完成"
 
 echo "####################################"
 echo "开始部署jar包"
-mv /home/ubuntu/service_code_rep/drum/target/drum-0.0.1-SNAPSHOT.jar /home/ubuntu/services/drum-0.0.1-SNAPSHOT.jar
-mv /home/ubuntu/service_code_rep/drum/target/drum-0.0.1-SNAPSHOT.jar.original /home/ubuntu/services/drum-0.0.1-SNAPSHOT.jar.original
+mv /home/ubuntu/code_repository/drum/target/drum-0.0.1-SNAPSHOT.jar /home/ubuntu/services/drum-0.0.1-SNAPSHOT.jar
+mv /home/ubuntu/code_repository/drum/target/drum-0.0.1-SNAPSHOT.jar.original /home/ubuntu/services/drum-0.0.1-SNAPSHOT.jar.original
 echo "部署完成"
 cd /root/services
 
