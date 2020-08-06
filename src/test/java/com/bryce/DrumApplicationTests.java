@@ -37,7 +37,7 @@ class DrumApplicationTests {
         redisUtils.hset("map", "b", 2);
         redisUtils.hset("map", "c", 3);
         Map<Object, Object> map = redisUtils.hmget("map");
-        System.out.println(redisUtils.hasKey("k1"));
+        System.out.println(redisUtils.hasKey("map"));
     }
 
 }
