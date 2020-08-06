@@ -5,9 +5,11 @@ spring:
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: 127.0.0.1
+#    host: 127.0.0.1
+#    port: 6379
+    host: 154.8.236.244
     port: 6379
-    password:
+    password: adminthn
     timeout: 5000
     database: 0  #连接超时时间（毫秒)
     lettuce:
