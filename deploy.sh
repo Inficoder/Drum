@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/code_repository/drum
+cd /root/code_repository/drum
 echo "####################################"
 echo "开始拉取最新代码"
 git pull
@@ -12,8 +12,8 @@ echo "编译打包完成"
 
 echo "####################################"
 echo "开始部署jar包"
-mv /home/ubuntu/code_repository/drum/target/drum-0.0.1-SNAPSHOT.jar /home/ubuntu/services/drum-0.0.1-SNAPSHOT.jar
-mv /home/ubuntu/code_repository/drum/target/drum-0.0.1-SNAPSHOT.jar.original /home/ubuntu/services/drum-0.0.1-SNAPSHOT.jar.original
+mv /root/code_repository/drum/target/drum-0.0.1-SNAPSHOT.jar /root/services/drum-0.0.1-SNAPSHOT.jar
+mv /root/code_repository/drum/target/drum-0.0.1-SNAPSHOT.jar.original /root/services/drum-0.0.1-SNAPSHOT.jar.original
 echo "部署完成"
 cd /root/services
 
@@ -27,6 +27,6 @@ fi
 
 echo "####################################"
 echo "启动服务中....."
-nohup java -jar -Dspring.profiles.active=prod drum-0.0.1-SNAPSHOT.jar > /home/ubuntu/services/logs/littlebee/service-drum.log &
+nohup java -jar -Dspring.profiles.active=prod drum-0.0.1-SNAPSHOT.jar > /root/services/logs/drum/service-drum.log &
 echo "#############输出启动日志####################"
-tail -f /home/ubuntu/services/logs/drum/service-drum.log
+tail -f /root/services/logs/drum/service-drum.log
