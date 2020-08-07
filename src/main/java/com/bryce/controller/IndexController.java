@@ -21,7 +21,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String index() {
-        return "hello,drum!!";
+        return "miao!";
     }
 
     @RequiresRoles("admin")
