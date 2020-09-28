@@ -6,6 +6,7 @@ import com.bryce.entity.Permission;
 import com.bryce.entity.Role;
 import com.bryce.entity.User;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -35,7 +36,7 @@ public interface UserService extends IService<User> {
     /**
      * 登录
      */
-    CommonResult login(String username, String password);
+    CommonResult login(String username, String password ,HttpServletRequest request);
 
     /**
      * 登出

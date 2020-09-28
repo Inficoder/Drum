@@ -1,17 +1,19 @@
 package com.bryce.service.impl;
 
+import cn.dev33.satoken.session.SaSession;
+import cn.dev33.satoken.stp.StpUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.bryce.common.CommonResult;
 import com.bryce.entity.*;
 import com.bryce.mapper.*;
 import com.bryce.service.UserService;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.security.auth.Subject;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -103,20 +105,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
      * @Param [username, password]
      **/
     @Override
-    public CommonResult login(String username, String password) {
-        Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, password);
-        subject.login(usernamePasswordToken);
-        return CommonResult.success("登陆成功");
+    public CommonResult login(String username, String password, HttpServletRequest request) {
+
+        StpUtil.setLoginId("123423247EQ");
+
+        SaSession session = StpUtil.getSession();
+        session.setAttribute("q","qqqq");
+        System.out.println(StpUtil.getSession().getAttribute("q"));
+        return null;
     }
 
     @Override
     public CommonResult logout() {
-        Subject subject = SecurityUtils.getSubject();
-        if (subject.isAuthenticated()) {
-            subject.logout();
-            return CommonResult.success("登出");
-        }
         return CommonResult.failed("未登录");
     }
 }

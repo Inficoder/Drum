@@ -1,43 +1,42 @@
 package com.bryce;
 
-import com.bryce.mapper.RoleMapper;
-import com.bryce.mapper.UserMapper;
-import com.bryce.mapper.UsersRolesMapper;
-import com.bryce.service.UserService;
-import com.bryce.util.RedisUtils;
+import com.bryce.entity.Mail;
+import com.bryce.util.EmailUtil;
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
-import java.util.Map;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
 
+@Slf4j
 @SpringBootTest
 class DrumApplicationTests {
-    @Resource
-    RoleMapper roleMapper;
-    @Resource
-    UserMapper userMapper;
 
     @Resource
-    UserService userService;
-
-    @Resource
-    UsersRolesMapper usersRolesMapper;
-
-//    @Resource
-//    private RedisUtils redisUtils;
-
-    @Autowired
-    private RedisUtils redisUtils;
+    EmailUtil emailUtil;
 
     @Test
+    @SneakyThrows
     public void test6() {
-        redisUtils.hset("map", "a", 1);
-        redisUtils.hset("map", "b", 2);
-        redisUtils.hset("map", "c", 3);
-        Map<Object, Object> map = redisUtils.hmget("map");
-        System.out.println(redisUtils.hasKey("map"));
+        //private final String from = "767174855@qq.com";
+
+        String to = "tianhaonan@buaa.edu.cn";
+        Mail mail = new Mail();
+        mail.setTo(to);
+        mail.setContent("hello mail miao!");
+        mail.setMsgId("1");
+        mail.setTitle("hello qq m");
+        emailUtil.sentDocumentMail(mail);
     }
 
 }

@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 /**
@@ -25,9 +26,9 @@ public class UserController {
     UserService userService;
 
     @RequestMapping("/login")
-    public CommonResult login(@Valid @RequestBody User user) {
+    public CommonResult login(@Valid @RequestBody User user, HttpServletRequest request) {
         log.info(user.toString());
-        return userService.login(user.getUsername(), user.getPassword());
+        return userService.login(user.getUsername(), user.getPassword(),request);
     }
 
     @RequestMapping("/logout")

@@ -42,8 +42,10 @@ public class RedisConfig extends CachingConfigurerSupport {
             return sb.toString();
         };
     }
+
     /**
      * redisTemplate相关配置
+     *
      * @param factory
      * @return
      */
