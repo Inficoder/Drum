@@ -1,0 +1,331 @@
+2020-09-25 09:02:53.778 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 5508 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:02:53.780 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:02:55.202 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:02:55.209 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:02:55.264 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-09-25 09:02:55.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$aff36053] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:02:59.491 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:03:00.071 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 7.02 seconds (JVM running for 9.078)
+2020-09-25 09:03:24.445 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:10:23.254 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 16672 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:10:23.256 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:10:24.150 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:10:24.153 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:10:24.186 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-09-25 09:10:24.570 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$f5d6b754] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:10:27.739 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:10:28.328 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.862 seconds (JVM running for 7.154)
+2020-09-25 09:10:29.045 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:10:40.352 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 144 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:10:40.356 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:10:41.383 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:10:41.386 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:10:41.423 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-09-25 09:10:41.860 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$b9e5495f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:10:44.501 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:10:45.010 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.263 seconds (JVM running for 6.47)
+2020-09-25 09:11:11.995 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:12:02.933 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 4972 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:12:02.935 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:12:03.830 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:12:03.833 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:12:03.886 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-09-25 09:12:04.360 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$e1a823b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:12:07.175 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:12:07.669 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.404 seconds (JVM running for 6.691)
+2020-09-25 09:12:07.982 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:12:22.089 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 17648 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:12:22.092 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:12:23.199 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:12:23.202 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:12:23.306 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 Redis repository interfaces.
+2020-09-25 09:12:24.061 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:12:26.979 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:12:27.515 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 6.511 seconds (JVM running for 7.898)
+2020-09-25 09:12:51.613 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:26:08.764 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 3272 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:26:08.766 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:26:09.969 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:26:09.973 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:26:10.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-09-25 09:26:10.487 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$b9e5495f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:26:13.366 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:26:13.979 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.939 seconds (JVM running for 7.215)
+2020-09-25 09:26:14.490 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:27:54.498 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 7752 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:27:54.500 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:27:55.520 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:27:55.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:27:55.562 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-09-25 09:27:56.017 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:27:58.743 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:27:59.259 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.465 seconds (JVM running for 6.86)
+2020-09-25 09:27:59.500 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:29:07.889 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 11416 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:29:07.891 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:29:08.770 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:29:08.773 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:29:08.814 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-09-25 09:29:09.265 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:29:11.924 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:29:12.462 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.232 seconds (JVM running for 6.513)
+2020-09-25 09:29:12.696 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:29:57.506 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 8212 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:29:57.508 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:29:58.490 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:29:58.493 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:29:58.531 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-09-25 09:29:58.972 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:30:01.584 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:30:02.110 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.294 seconds (JVM running for 6.566)
+2020-09-25 09:30:12.476 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:31:49.212 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 3560 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:31:49.214 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:31:50.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:31:50.220 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:31:50.285 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 Redis repository interfaces.
+2020-09-25 09:31:50.812 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:31:53.698 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:31:54.249 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.733 seconds (JVM running for 6.97)
+2020-09-25 09:32:04.501 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:33:48.401 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 19592 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:33:48.402 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:33:49.419 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:33:49.424 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:33:49.474 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-09-25 09:33:50.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:33:52.949 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:33:53.493 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.757 seconds (JVM running for 7.133)
+2020-09-25 09:33:53.741 [Thread-170] INFO  com.bryce.util.EmailUtil - email thread :194
+2020-09-25 09:34:03.787 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:35:48.326 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 11780 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:35:48.328 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:35:49.324 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:35:49.328 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:35:49.366 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-09-25 09:35:49.843 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:35:52.834 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:35:53.464 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.863 seconds (JVM running for 7.34)
+2020-09-25 09:35:53.712 [main] INFO  com.bryce.util.EmailUtil - email thread :1
+2020-09-25 09:36:29.337 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:37:03.447 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 16176 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:37:03.450 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:37:04.342 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:37:04.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:37:04.385 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-09-25 09:37:04.832 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:37:07.536 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:37:08.068 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.279 seconds (JVM running for 6.596)
+2020-09-25 09:37:08.308 [Thread-170] INFO  com.bryce.util.EmailUtil - email thread :194
+2020-09-25 09:37:18.334 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:37:33.919 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 3508 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:37:33.921 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:37:34.904 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:37:34.907 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:37:34.945 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-09-25 09:37:35.422 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$dbe5eac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:37:38.335 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:37:38.936 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.798 seconds (JVM running for 7.18)
+2020-09-25 09:37:39.177 [Thread-170] INFO  com.bryce.util.EmailUtil - email thread :194
+2020-09-25 09:37:59.222 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:38:45.434 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 6956 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 09:38:45.435 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 09:38:46.367 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 09:38:46.370 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 09:38:46.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-09-25 09:38:46.879 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$f5d6b754] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 09:38:49.574 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 09:38:50.093 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.308 seconds (JVM running for 6.608)
+2020-09-25 09:38:50.321 [Thread-170] INFO  com.bryce.util.EmailUtil - email thread :194
+2020-09-25 09:39:20.348 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 10:09:05.783 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 18524 (started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:09:05.800 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-25 10:09:07.569 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:09:07.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:09:07.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-09-25 10:09:08.305 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$1c74c288] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:09:11.027 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:09:11.028 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:09:11.043 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:09:12.680 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 7.672 seconds (JVM running for 9.349)
+2020-09-25 10:09:13.074 [Thread-170] INFO  com.bryce.util.EmailUtil - email thread :194
+2020-09-25 10:09:13.106 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:09:29.931 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 11384 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:09:29.934 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:09:30.822 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:09:30.824 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:09:30.855 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-09-25 10:09:31.118 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$668f87f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:09:31.841 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:09:31.851 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:09:31.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:09:31.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:09:31.972 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:09:31.972 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1970 ms
+2020-09-25 10:09:33.427 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:09:33.427 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:09:33.428 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:09:33.825 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:09:33.843 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:09:33.852 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 4.606 seconds (JVM running for 6.122)
+2020-09-25 10:09:33.854 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:10:22.188 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:10:22.189 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:10:22.200 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-09-25 10:10:51.548 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 268 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:10:51.552 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:10:52.239 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:10:52.241 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:10:52.270 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-09-25 10:10:52.509 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$6928bc96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:10:52.741 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:10:52.747 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:10:52.748 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:10:52.748 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:10:52.816 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:10:52.816 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1213 ms
+2020-09-25 10:10:54.300 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:10:54.301 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:10:54.302 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:10:54.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:10:54.698 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:10:54.706 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 3.85 seconds (JVM running for 4.9)
+2020-09-25 10:10:54.708 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:11:04.027 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:11:04.027 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:11:04.032 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-25 10:12:00.773 [http-nio-8080-exec-6] INFO  com.bryce.controller.UserController - User{username='admin', password='admin', gender='null', id='null'}
+2020-09-25 10:12:47.027 [http-nio-8080-exec-7] INFO  com.bryce.controller.UserController - User{username='admin', password='admin', gender='null', id='null'}
+2020-09-25 10:13:46.632 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 2456 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:13:46.634 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:13:47.522 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:13:47.526 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:13:47.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-09-25 10:13:47.943 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$de5a9675] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:13:48.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:13:48.307 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:13:48.308 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:13:48.308 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:13:48.440 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:13:48.441 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1771 ms
+2020-09-25 10:13:50.147 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:13:50.147 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:13:50.148 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:13:50.741 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:13:50.759 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:13:50.767 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 4.797 seconds (JVM running for 6.62)
+2020-09-25 10:13:50.769 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:13:55.406 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:13:55.407 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:13:55.429 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2020-09-25 10:14:54.106 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 2044 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:14:54.110 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:14:54.755 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:14:54.757 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:14:54.786 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-09-25 10:14:55.024 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$35b913b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:14:55.261 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:14:55.268 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:14:55.269 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:14:55.269 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:14:55.341 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:14:55.341 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1177 ms
+2020-09-25 10:14:56.904 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:14:56.905 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:14:56.907 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:14:57.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:14:57.373 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:14:57.383 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 3.958 seconds (JVM running for 5.005)
+2020-09-25 10:14:57.385 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:15:01.138 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:15:01.138 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:15:01.143 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-09-25 10:15:47.243 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 14944 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:15:47.247 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:15:47.957 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:15:47.959 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:15:47.992 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-09-25 10:15:48.282 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$6875ec73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:15:48.568 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:15:48.575 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:15:48.576 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:15:48.576 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:15:48.661 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:15:48.662 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
+2020-09-25 10:15:50.211 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:15:50.212 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:15:50.213 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:15:50.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:15:50.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:15:50.588 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 4.0 seconds (JVM running for 5.036)
+2020-09-25 10:15:50.589 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:15:53.615 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:15:53.616 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:15:53.620 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-09-25 10:16:50.998 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 6204 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:16:51.001 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:16:51.727 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:16:51.731 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:16:51.786 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-09-25 10:16:52.100 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$56e4943f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:16:52.356 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:16:52.363 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:16:52.364 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:16:52.364 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:16:52.438 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:16:52.438 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1380 ms
+2020-09-25 10:16:54.002 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:16:54.003 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:16:54.005 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:16:54.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:16:54.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:16:54.505 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 4.246 seconds (JVM running for 6.05)
+2020-09-25 10:16:54.507 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:16:56.031 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:16:56.031 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:16:56.038 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-09-25 10:17:36.425 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 9628 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:17:36.430 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:17:37.139 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:17:37.141 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:17:37.171 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-09-25 10:17:37.420 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$c7831b35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:17:37.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:17:37.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:17:37.720 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:17:37.720 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:17:37.797 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:17:37.797 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1309 ms
+2020-09-25 10:17:39.369 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:17:39.369 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:17:39.370 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:17:39.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:17:39.883 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:17:39.893 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 4.199 seconds (JVM running for 5.483)
+2020-09-25 10:17:39.895 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:17:42.495 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:17:42.495 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:17:42.504 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-09-25 10:20:53.770 [main] INFO  com.bryce.DrumApplication - Starting DrumApplication on win-2019110501 with PID 19192 (E:\pro\mdy\drum\target\classes started by lenovo in E:\pro\mdy\drum)
+2020-09-25 10:20:53.773 [main] INFO  com.bryce.DrumApplication - The following profiles are active: prod
+2020-09-25 10:20:54.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-25 10:20:54.518 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-25 10:20:54.546 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-09-25 10:20:54.793 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$2096df80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-25 10:20:55.029 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-25 10:20:55.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:20:55.036 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-25 10:20:55.036 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-09-25 10:20:55.107 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-25 10:20:55.107 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1283 ms
+2020-09-25 10:20:56.582 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-25 10:20:56.582 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-25 10:20:56.583 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-25 10:20:56.991 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-25 10:20:57.008 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-25 10:20:57.017 [main] INFO  com.bryce.DrumApplication - Started DrumApplication in 3.922 seconds (JVM running for 5.042)
+2020-09-25 10:20:57.019 [main] INFO  com.bryce.DrumApplication - 启动成功：sa-token配置如下：SaTokenConfig [tokenName=satoken, timeout=2592000, isShare=true, isReadBody=true, isReadHead=true, isReadCookie=true, isV=true]
+2020-09-25 10:21:02.030 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:21:02.030 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:21:02.035 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-25 10:21:02.055 [Thread-186] INFO  com.bryce.util.EmailUtil - email thread :231

@@ -1,0 +1,286 @@
+2020-09-23 15:18:33.839 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 17344 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:18:33.841 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:18:35.132 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:18:35.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:18:35.209 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-09-23 15:18:35.915 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$5ed29cf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:18:39.261 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:18:39.848 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 6.747 seconds (JVM running for 8.706)
+2020-09-23 15:18:42.564 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:19:31.685 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 17704 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:19:31.687 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:19:33.061 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:19:33.064 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:19:33.109 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-09-23 15:19:33.612 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$62ef81de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:19:36.841 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:19:37.523 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 6.767 seconds (JVM running for 8.473)
+2020-09-23 15:19:39.953 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:26:24.928 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 3032 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:26:24.929 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:26:25.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:26:25.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:26:25.887 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-09-23 15:26:26.333 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$a8d56eee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:26:28.052 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-23 15:28:58.197 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 11516 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:28:58.199 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:28:59.102 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:28:59.104 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:28:59.146 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-09-23 15:28:59.611 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$e0abf70f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:29:01.318 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-23 15:29:33.760 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 396 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:29:33.761 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:29:34.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:29:34.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:29:34.721 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-09-23 15:29:35.182 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$cf4daab4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:29:36.961 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-23 15:30:14.965 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 14444 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:30:14.967 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:30:16.042 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:30:16.045 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:30:16.090 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-09-23 15:30:16.547 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$cf4daab4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:30:18.317 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-23 15:30:56.385 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 19444 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:30:56.386 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:30:57.263 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:30:57.266 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:30:57.330 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
+2020-09-23 15:30:57.814 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$26d93076] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:31:00.794 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:31:01.355 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.679 seconds (JVM running for 6.985)
+2020-09-23 15:31:03.747 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:37:57.876 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 10032 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 15:37:57.877 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 15:37:59.473 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:37:59.478 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:37:59.543 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-09-23 15:38:00.259 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$e0abf70f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:38:03.528 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:38:04.129 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 7.028 seconds (JVM running for 8.287)
+2020-09-23 15:38:07.121 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 17:10:05.565 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 12808 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 17:10:05.567 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 17:10:06.752 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 17:10:06.756 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 17:10:06.811 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-09-23 17:10:07.436 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$704bba43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 17:10:11.063 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 17:10:12.049 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 7.168 seconds (JVM running for 8.615)
+2020-09-23 17:10:12.293 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:10:12.292  ////   20200923_171012
+2020-09-23 17:10:12.316 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 17:11:01.365 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 13880 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 17:11:01.366 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 17:11:02.516 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 17:11:02.520 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 17:11:02.569 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-09-23 17:11:03.137 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$704bba43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 17:11:06.197 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 17:11:06.837 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 6.244 seconds (JVM running for 7.753)
+2020-09-23 17:11:08.128 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:07.126  ////   20200923_171107
+2020-09-23 17:11:08.166 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 17:11:35.635 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 17204 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 17:11:35.637 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 17:11:36.640 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 17:11:36.643 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 17:11:36.689 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-09-23 17:11:37.158 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$62ef81de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 17:11:40.022 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 17:11:40.632 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 5.78 seconds (JVM running for 7.23)
+2020-09-23 17:11:41.915 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:40.914  ////   20200923_171140
+2020-09-23 17:11:42.916 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:41.916  ////   20200923_171141
+2020-09-23 17:11:43.916 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:42.916  ////   20200923_171142
+2020-09-23 17:11:44.917 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:43.916  ////   20200923_171143
+2020-09-23 17:11:45.918 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:44.917  ////   20200923_171144
+2020-09-23 17:11:46.918 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:45.918  ////   20200923_171145
+2020-09-23 17:11:47.918 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:46.918  ////   20200923_171146
+2020-09-23 17:11:48.919 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:47.918  ////   20200923_171147
+2020-09-23 17:11:49.919 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:48.919  ////   20200923_171148
+2020-09-23 17:11:50.920 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:49.919  ////   20200923_171149
+2020-09-23 17:11:51.921 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:50.920  ////   20200923_171150
+2020-09-23 17:11:52.921 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:51.921  ////   20200923_171151
+2020-09-23 17:11:53.922 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:52.921  ////   20200923_171152
+2020-09-23 17:11:54.922 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:53.922  ////   20200923_171153
+2020-09-23 17:11:55.922 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:54.922  ////   20200923_171154
+2020-09-23 17:11:56.923 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:55.922  ////   20200923_171155
+2020-09-23 17:11:57.924 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:56.923  ////   20200923_171156
+2020-09-23 17:11:58.925 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:57.924  ////   20200923_171157
+2020-09-23 17:11:59.926 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:58.925  ////   20200923_171158
+2020-09-23 17:12:00.926 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:11:59.926  ////   20200923_171159
+2020-09-23 17:12:01.927 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:00.926  ////   20200923_171200
+2020-09-23 17:12:02.927 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:01.927  ////   20200923_171201
+2020-09-23 17:12:03.928 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:02.928  ////   20200923_171202
+2020-09-23 17:12:04.928 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:03.928  ////   20200923_171203
+2020-09-23 17:12:05.929 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:04.928  ////   20200923_171204
+2020-09-23 17:12:06.929 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:05.929  ////   20200923_171205
+2020-09-23 17:12:07.929 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:06.929  ////   20200923_171206
+2020-09-23 17:12:08.929 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:07.929  ////   20200923_171207
+2020-09-23 17:12:09.929 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:08.929  ////   20200923_171208
+2020-09-23 17:12:10.930 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:09.929  ////   20200923_171209
+2020-09-23 17:12:11.931 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:10.930  ////   20200923_171210
+2020-09-23 17:12:12.932 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:11.931  ////   20200923_171211
+2020-09-23 17:12:13.932 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:12.932  ////   20200923_171212
+2020-09-23 17:12:14.933 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:13.932  ////   20200923_171213
+2020-09-23 17:12:15.934 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:14.933  ////   20200923_171214
+2020-09-23 17:12:16.934 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:15.934  ////   20200923_171215
+2020-09-23 17:12:17.935 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:16.934  ////   20200923_171216
+2020-09-23 17:12:18.936 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:17.935  ////   20200923_171217
+2020-09-23 17:12:19.936 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:18.936  ////   20200923_171218
+2020-09-23 17:12:20.937 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:19.937  ////   20200923_171219
+2020-09-23 17:12:21.938 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:20.937  ////   20200923_171220
+2020-09-23 17:12:22.938 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:21.938  ////   20200923_171221
+2020-09-23 17:12:23.939 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:12:22.938  ////   20200923_171222
+2020-09-23 17:20:32.460 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 19348 (started by lenovo in E:\pro\mdy\drum)
+2020-09-23 17:20:32.461 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-23 17:20:33.719 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 17:20:33.721 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 17:20:33.761 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-09-23 17:20:34.249 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$520460b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 17:20:37.702 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 17:20:38.555 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 6.779 seconds (JVM running for 8.203)
+2020-09-23 17:20:39.575 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:39.075  ////   20200923_172039
+2020-09-23 17:20:40.077 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:39.576  ////   20200923_172039
+2020-09-23 17:20:40.577 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:40.077  ////   20200923_172040
+2020-09-23 17:20:41.077 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:40.577  ////   20200923_172040
+2020-09-23 17:20:41.578 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:41.077  ////   20200923_172041
+2020-09-23 17:20:42.078 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:41.578  ////   20200923_172041
+2020-09-23 17:20:42.578 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:42.078  ////   20200923_172042
+2020-09-23 17:20:43.079 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:42.578  ////   20200923_172042
+2020-09-23 17:20:43.579 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:43.079  ////   20200923_172043
+2020-09-23 17:20:44.079 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:43.579  ////   20200923_172043
+2020-09-23 17:20:44.580 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:44.079  ////   20200923_172044
+2020-09-23 17:20:45.081 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:44.580  ////   20200923_172044
+2020-09-23 17:20:45.581 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:45.081  ////   20200923_172045
+2020-09-23 17:20:46.082 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:45.581  ////   20200923_172045
+2020-09-23 17:20:46.582 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:46.082  ////   20200923_172046
+2020-09-23 17:20:47.082 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:46.582  ////   20200923_172046
+2020-09-23 17:20:47.583 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:47.082  ////   20200923_172047
+2020-09-23 17:20:48.083 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:47.583  ////   20200923_172047
+2020-09-23 17:20:48.583 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:48.083  ////   20200923_172048
+2020-09-23 17:20:49.083 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:48.583  ////   20200923_172048
+2020-09-23 17:20:49.584 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:49.083  ////   20200923_172049
+2020-09-23 17:20:50.084 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:49.584  ////   20200923_172049
+2020-09-23 17:20:50.585 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:50.084  ////   20200923_172050
+2020-09-23 17:20:51.086 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:50.585  ////   20200923_172050
+2020-09-23 17:20:51.586 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:51.086  ////   20200923_172051
+2020-09-23 17:20:52.087 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:51.586  ////   20200923_172051
+2020-09-23 17:20:52.587 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:52.087  ////   20200923_172052
+2020-09-23 17:20:53.089 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:52.588  ////   20200923_172052
+2020-09-23 17:20:53.590 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:53.089  ////   20200923_172053
+2020-09-23 17:20:54.091 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:53.590  ////   20200923_172053
+2020-09-23 17:20:54.591 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:54.091  ////   20200923_172054
+2020-09-23 17:20:55.091 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:54.591  ////   20200923_172054
+2020-09-23 17:20:55.591 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:55.091  ////   20200923_172055
+2020-09-23 17:20:56.092 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:55.591  ////   20200923_172055
+2020-09-23 17:20:56.592 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:56.092  ////   20200923_172056
+2020-09-23 17:20:57.092 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:56.592  ////   20200923_172056
+2020-09-23 17:20:57.594 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:57.092  ////   20200923_172057
+2020-09-23 17:20:58.094 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:57.594  ////   20200923_172057
+2020-09-23 17:20:58.595 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:58.094  ////   20200923_172058
+2020-09-23 17:20:59.095 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:58.595  ////   20200923_172058
+2020-09-23 17:20:59.595 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:59.095  ////   20200923_172059
+2020-09-23 17:21:00.095 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:20:59.595  ////   20200923_172059
+2020-09-23 17:21:00.596 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:00.095  ////   20200923_172100
+2020-09-23 17:21:01.097 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:00.596  ////   20200923_172100
+2020-09-23 17:21:01.597 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:01.097  ////   20200923_172101
+2020-09-23 17:21:02.098 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:01.597  ////   20200923_172101
+2020-09-23 17:21:02.598 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:02.098  ////   20200923_172102
+2020-09-23 17:21:03.098 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:02.598  ////   20200923_172102
+2020-09-23 17:21:03.599 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:03.098  ////   20200923_172103
+2020-09-23 17:21:04.099 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:03.599  ////   20200923_172103
+2020-09-23 17:21:04.599 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:04.099  ////   20200923_172104
+2020-09-23 17:21:05.099 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:04.599  ////   20200923_172104
+2020-09-23 17:21:05.600 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:05.099  ////   20200923_172105
+2020-09-23 17:21:06.101 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:05.601  ////   20200923_172105
+2020-09-23 17:21:06.602 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:06.101  ////   20200923_172106
+2020-09-23 17:21:07.102 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:06.602  ////   20200923_172106
+2020-09-23 17:21:07.603 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:07.102  ////   20200923_172107
+2020-09-23 17:21:08.104 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:07.603  ////   20200923_172107
+2020-09-23 17:21:08.605 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:08.104  ////   20200923_172108
+2020-09-23 17:21:09.105 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:08.605  ////   20200923_172108
+2020-09-23 17:21:09.606 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:09.105  ////   20200923_172109
+2020-09-23 17:21:10.107 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:09.606  ////   20200923_172109
+2020-09-23 17:21:10.608 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:10.107  ////   20200923_172110
+2020-09-23 17:21:11.108 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:10.608  ////   20200923_172110
+2020-09-23 17:21:11.609 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:11.108  ////   20200923_172111
+2020-09-23 17:21:12.109 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:11.609  ////   20200923_172111
+2020-09-23 17:21:12.609 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:12.109  ////   20200923_172112
+2020-09-23 17:21:13.110 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:12.609  ////   20200923_172112
+2020-09-23 17:21:13.610 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:13.110  ////   20200923_172113
+2020-09-23 17:21:14.111 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:13.610  ////   20200923_172113
+2020-09-23 17:21:14.611 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:14.111  ////   20200923_172114
+2020-09-23 17:21:15.111 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:14.611  ////   20200923_172114
+2020-09-23 17:21:15.611 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:15.111  ////   20200923_172115
+2020-09-23 17:21:16.112 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:15.611  ////   20200923_172115
+2020-09-23 17:21:16.612 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:16.112  ////   20200923_172116
+2020-09-23 17:21:17.113 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:16.612  ////   20200923_172116
+2020-09-23 17:21:17.613 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:17.113  ////   20200923_172117
+2020-09-23 17:21:18.113 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:17.613  ////   20200923_172117
+2020-09-23 17:21:18.614 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:18.113  ////   20200923_172118
+2020-09-23 17:21:19.115 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:18.614  ////   20200923_172118
+2020-09-23 17:21:19.615 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:19.115  ////   20200923_172119
+2020-09-23 17:21:20.115 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:19.615  ////   20200923_172119
+2020-09-23 17:21:20.615 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:20.115  ////   20200923_172120
+2020-09-23 17:21:21.116 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:20.615  ////   20200923_172120
+2020-09-23 17:21:21.616 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:21.116  ////   20200923_172121
+2020-09-23 17:21:22.117 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:21.616  ////   20200923_172121
+2020-09-23 17:21:22.617 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:22.117  ////   20200923_172122
+2020-09-23 17:21:23.118 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:22.617  ////   20200923_172122
+2020-09-23 17:21:23.618 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:23.118  ////   20200923_172123
+2020-09-23 17:21:24.119 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:23.618  ////   20200923_172123
+2020-09-23 17:21:24.619 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:24.119  ////   20200923_172124
+2020-09-23 17:21:25.119 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:24.619  ////   20200923_172124
+2020-09-23 17:21:25.619 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:25.119  ////   20200923_172125
+2020-09-23 17:21:26.119 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:25.619  ////   20200923_172125
+2020-09-23 17:21:26.619 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:26.119  ////   20200923_172126
+2020-09-23 17:21:27.120 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:26.619  ////   20200923_172126
+2020-09-23 17:21:27.620 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:27.120  ////   20200923_172127
+2020-09-23 17:21:28.121 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:27.620  ////   20200923_172127
+2020-09-23 17:21:28.623 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:28.122  ////   20200923_172128
+2020-09-23 17:21:29.123 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:28.623  ////   20200923_172128
+2020-09-23 17:21:29.624 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:29.123  ////   20200923_172129
+2020-09-23 17:21:30.125 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:29.624  ////   20200923_172129
+2020-09-23 17:21:30.625 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:30.125  ////   20200923_172130
+2020-09-23 17:21:31.125 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:30.625  ////   20200923_172130
+2020-09-23 17:21:31.626 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:31.125  ////   20200923_172131
+2020-09-23 17:21:32.127 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:31.626  ////   20200923_172131
+2020-09-23 17:21:32.628 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:32.127  ////   20200923_172132
+2020-09-23 17:21:33.128 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:32.628  ////   20200923_172132
+2020-09-23 17:21:33.629 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:33.128  ////   20200923_172133
+2020-09-23 17:21:34.130 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:33.629  ////   20200923_172133
+2020-09-23 17:21:34.630 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:34.130  ////   20200923_172134
+2020-09-23 17:21:35.131 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:34.630  ////   20200923_172134
+2020-09-23 17:21:35.632 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:35.131  ////   20200923_172135
+2020-09-23 17:21:36.132 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:35.632  ////   20200923_172135
+2020-09-23 17:21:36.632 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:36.132  ////   20200923_172136
+2020-09-23 17:21:37.132 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:36.632  ////   20200923_172136
+2020-09-23 17:21:37.633 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:37.132  ////   20200923_172137
+2020-09-23 17:21:38.133 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:37.633  ////   20200923_172137
+2020-09-23 17:21:38.633 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:38.133  ////   20200923_172138
+2020-09-23 17:21:39.134 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:38.633  ////   20200923_172138
+2020-09-23 17:21:39.635 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:39.134  ////   20200923_172139
+2020-09-23 17:21:40.135 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:39.635  ////   20200923_172139
+2020-09-23 17:21:40.635 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:40.135  ////   20200923_172140
+2020-09-23 17:21:41.136 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:40.635  ////   20200923_172140
+2020-09-23 17:21:41.636 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:41.136  ////   20200923_172141
+2020-09-23 17:21:42.136 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:41.636  ////   20200923_172141
+2020-09-23 17:21:42.636 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:42.136  ////   20200923_172142
+2020-09-23 17:21:43.137 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:42.636  ////   20200923_172142
+2020-09-23 17:21:43.637 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:43.137  ////   20200923_172143
+2020-09-23 17:21:44.138 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:43.637  ////   20200923_172143
+2020-09-23 17:21:44.638 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:44.138  ////   20200923_172144
+2020-09-23 17:21:45.139 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:44.638  ////   20200923_172144
+2020-09-23 17:21:45.639 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:45.139  ////   20200923_172145
+2020-09-23 17:21:46.139 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:45.639  ////   20200923_172145
+2020-09-23 17:21:46.639 [main] INFO  com.bryce.DrumApplicationTests - 2020-09-23T17:21:46.139  ////   20200923_172146

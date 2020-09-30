@@ -18,7 +18,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 @EnableAsync
 @Slf4j
 public class ThreadPoolTaskConfig {
-    private static final int CORE_POOL_SIZE = Runtime.getRuntime().availableProcessors() *2;
+    private static final int CORE_POOL_SIZE = Runtime.getRuntime().availableProcessors() * 2;
     private static final int MAX_POOL_SIZE = CORE_POOL_SIZE *4 <256 ? 256 : CORE_POOL_SIZE * 4;
     private static final int KEEP_ALIVE_TIME = 10; //允许线程空闲时间（单位为秒）
     private static final int QUEUE_CAPACITY = 200; // 缓冲队列数

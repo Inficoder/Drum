@@ -3,19 +3,17 @@ package com.bryce.util;
 import com.bryce.entity.Mail;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.FileSystemResource;
-import org.springframework.mail.MailException;
-import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
-import javax.mail.MessagingException;
+import javax.mail.Session;
+import javax.mail.Transport;
 import javax.mail.internet.MimeMessage;
-import java.io.File;
+import java.util.Properties;
 
 /**
  * @ClassName EmailUtil
@@ -26,7 +24,6 @@ import java.io.File;
 @Slf4j
 @Component
 public class EmailUtil {
-
     /**
      * 发件人
      */
@@ -36,107 +33,55 @@ public class EmailUtil {
     @Resource
     private JavaMailSender javaMailSender;
 
+    @Async("piceaTaskExecutor")
+    @SneakyThrows
+    public void sentDocumentMail(Mail mail){
 
-    /**
-     * 发送简单邮件
-     * @param mail
-     */
-    public boolean send(Mail mail) {
-        JavaMailSender mailSender = new JavaMailSenderImpl();
-        String to = mail.getTo();// 目标邮箱
-        String title = mail.getTitle();// 邮件标题
-        String content = mail.getContent();// 邮件正文
+        // 1. 创建参数配置, 用于连接邮件服务器的参数配置
+        Properties props = new Properties();
+        // 发件人的邮箱的 SMTP 服务器地址
+        props.setProperty("mail.host", "smtp.qq.com");
+        // 需要请求认证
+        props.setProperty("mail.smtp.auth", "true");
 
-        SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom(from);
-        message.setTo(to);
-        message.setSubject(title);
-        message.setText(content);
-        try {
-            mailSender.send(message);
-            log.info("邮件发送成功");
-            return true;
-        }catch(MailException e) {
-            log.error("邮件发送失败, to: {}, title: {}", to, title, e);
-            return false;
-        }
-    }
-    public void sendEmail(Mail mail){
-         //发邮件
-        SimpleMailMessage message = new SimpleMailMessage();
-        //发件人邮件地址(上面获取到的，也可以直接填写,string类型)
-        message.setFrom(from);
-        //收件人邮件地址
-        message.setTo(mail.getTo());
-        //邮件主题
-        message.setSubject("注册验证码二");
-        //邮件正文
-        message.setText("我是普通文本邮件内容");
-        javaMailSender.send(message);
-    }
+        props.setProperty("mail.transport.protocol", "smtps");
 
-     public void sentDocumentMail(Mail mail){
+        props.setProperty("mail.smtp.port", "465");
+        props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+        props.setProperty("mail.smtp.socketFactory.fallback", "false");
+        props.setProperty("mail.smtp.socketFactory.port", "465");
+
+
+        // 2. 根据配置创建会话对象, 用于和邮件服务器交互
+        Session session = Session.getInstance(props);
+
+        // 设置为debug模式, 可以查看详细的发送 log
+        session.setDebug(true);
         String [] fileArray={"root/services/logs/web_error.log"};
-         System.out.println("email thread ~~~~~~~~~~~~~~");
-        new Thread(() -> {
-            log.info("email thread :{}",Thread.currentThread().getId());
-        MimeMessage message=javaMailSender.createMimeMessage();
-            System.out.println(1);
-        try {
-            MimeMessageHelper helper=new MimeMessageHelper(message,true);
-            System.out.println(2);
-            helper.setFrom(from);
-            helper.setTo(mail.getTo());
-            helper.setSubject("test");
-            helper.setText("test document");
-            FileSystemResource file = null;
-            file = new FileSystemResource(fileArray[0]);
-            String filename = "email.txt";
-            helper.addAttachment(filename, file);
-            System.out.println(3);
-            //验证文件数据是否为空
-//            if(null != fileArray){
-//                FileSystemResource file=null;
-//                for (int i = 0; i < fileArray.length; i++) {
-//                    //添加附件
-//                    file=new FileSystemResource(fileArray[i]);
-//                    helper.addAttachment(fileArray[i].substring(fileArray[i].lastIndexOf(File.separator)), file);
-//                }
-//            }
-            javaMailSender.send(message);
-            System.out.println(4);
-            System.out.println("带附件的邮件发送成功");
-        }catch (Exception e){
-            e.printStackTrace();
-            System.out.println("发送带附件的邮件失败");
-        }
-        }).start();
+
+        MimeMessage message = javaMailSender.createMimeMessage();
+        // 2. 根据配置创建会话对象, 用于和邮件服务器交互
+
+        // 4. 根据 Session 获取邮件传输对象
+        Transport transport = session.getTransport();
+
+        // 5. 使用 邮箱账号 和 密码 连接邮件服务器, 这里认证的邮箱必须与 message 中的发件人邮箱一致, 否则报错
+        transport.connect("767174855@qq.com", "mpkjpgzmhjfubgah");
+
+        // 6. 发送邮件, 发到所有的收件地址, message.getAllRecipients() 获取到的是在创建邮件对象时添加的所有收件人, 抄送人, 密送人
+        MimeMessageHelper helper=new MimeMessageHelper(message,true);
+        helper.setFrom(from);
+        helper.setTo(mail.getTo());
+        helper.setSubject("test");
+        helper.setText("test document");
+        FileSystemResource file = null;
+        file = new FileSystemResource(fileArray[0]);
+        String filename = "email.txt";
+        helper.addAttachment(filename, file);
+        // 7. 关闭连接
+        transport.sendMessage(message, message.getAllRecipients());
+        transport.close();
     }
 
-
-    public void sendSMTPSMail(Mail mail) {
-        String [] fileArray={"root/services/logs/web_error.log"};
-        // 发送邮件是耗时任务，需要另起线程，不影响主线程。此处可使用线程池处理
-        new Thread(() -> {
-            MimeMessage message = javaMailSender.createMimeMessage();
-
-            try {
-                MimeMessageHelper helper = new MimeMessageHelper(message,true);
-                helper.setFrom(from);
-                helper.setTo(mail.getTo());
-                helper.setSubject("test");
-                helper.setText("test document");
-                FileSystemResource file = null;
-                file = new FileSystemResource(fileArray[0]);
-                String filename = "email.txt";
-                helper.addAttachment(filename, file);
-                javaMailSender.send(message);
-                System.out.println("带附件的邮件发送成功");
-            } catch (Exception e) {
-                e.printStackTrace();
-                System.out.println("发送带附件的邮件失败");
-            }
-        }).start();
-    }
 }
 

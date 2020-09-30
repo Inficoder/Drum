@@ -1,0 +1,32 @@
+2020-09-30 11:36:26.644 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 7620 (started by lenovo in E:\pro\mdy\drum)
+2020-09-30 11:36:26.647 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-30 11:36:28.174 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-30 11:36:28.183 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-30 11:36:28.241 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-09-30 11:36:28.926 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$59766b6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-30 11:36:32.057 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-30 11:36:32.057 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-30 11:36:32.069 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-30 11:36:33.317 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 7.457 seconds (JVM running for 10.212)
+2020-09-30 11:37:02.752 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 12948 (started by lenovo in E:\pro\mdy\drum)
+2020-09-30 11:37:02.754 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-30 11:37:03.913 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-30 11:37:03.916 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-30 11:37:03.959 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-09-30 11:37:04.471 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$d03e8b10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-30 11:37:06.969 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-30 11:37:06.970 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-30 11:37:06.988 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-30 11:37:08.427 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 6.53 seconds (JVM running for 7.889)
+2020-09-30 11:37:38.881 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'piceaTaskExecutor'
+2020-09-30 13:05:28.326 [main] INFO  com.bryce.DrumApplicationTests - Starting DrumApplicationTests on win-2019110501 with PID 19916 (started by lenovo in E:\pro\mdy\drum)
+2020-09-30 13:05:28.332 [main] INFO  com.bryce.DrumApplicationTests - The following profiles are active: prod
+2020-09-30 13:05:29.585 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-30 13:05:29.588 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-30 13:05:29.727 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2020-09-30 13:05:30.405 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.bryce.config.RedisConfig$$EnhancerBySpringCGLIB$$7ff04da5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-30 13:05:33.460 [main] INFO  com.bryce.config.ThreadPoolTaskConfig - 线程池配置！！
+2020-09-30 13:05:33.461 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-30 13:05:33.475 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'piceaTaskExecutor'
+2020-09-30 13:05:35.083 [main] INFO  com.bryce.DrumApplicationTests - Started DrumApplicationTests in 7.452 seconds (JVM running for 8.948)
+2020-09-30 13:06:05.412 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'piceaTaskExecutor'
